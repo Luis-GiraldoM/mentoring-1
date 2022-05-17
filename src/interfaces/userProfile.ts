@@ -1,3 +1,5 @@
+import { Address } from './address'
+
 export class UserProfile {
   private name?: string
   private lastName?: string
@@ -6,9 +8,11 @@ export class UserProfile {
   private identificationType?: string
   private email?: string
   private birthDate?: Date
-  private address?: string
+  private address: Address[]
 
-  constructor() {}
+  constructor() {
+    this.address = []
+  }
 
   getName() {
     return this.name
@@ -66,11 +70,11 @@ export class UserProfile {
     this.birthDate = birthDate
   }
 
-  getAddress() {
+  getAddresses() {
     return this.address
   }
 
-  setAddress(address?: string) {
-    this.address = address
+  addAddress(address: Address) {
+    this.address.push(address)
   }
 }

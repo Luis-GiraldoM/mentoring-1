@@ -14,7 +14,6 @@ export const runBuilderPattern = () => {
     .identificationType('CC')
     .email('myemail@expe.co')
     .birthDate(new Date(1996, 2, 11))
-    .address('Bello - Ant')
     .build()
 
   console.log(firstLoginUser, basicInformationUser, fullUserInformation)

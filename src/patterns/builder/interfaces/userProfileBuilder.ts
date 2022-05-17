@@ -1,4 +1,5 @@
-import { UserProfile } from './userProfile'
+import { Address } from '../../../interfaces/address'
+import { UserProfile } from '../../../interfaces/userProfile'
 
 export class UserProfileBuilder {
   private userProfile: UserProfile
@@ -49,8 +50,8 @@ export class UserProfileBuilder {
     return this
   }
 
-  address(address?: string) {
-    this.userProfile.setAddress(address)
+  address(address: Address) {
+    this.userProfile.addAddress(address)
 
     return this
   }
