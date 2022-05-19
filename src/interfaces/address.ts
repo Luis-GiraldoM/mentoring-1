@@ -4,8 +4,14 @@ export class Address {
   private place: string
   private complement?: string
   private postalCode?: string
+  private config: any
 
-  constructor() {}
+  constructor() {
+    this.country = ''
+    this.city = ''
+    this.place = ''
+    this.config = {}
+  }
 
   getCountry() {
     return this.country
@@ -35,7 +41,7 @@ export class Address {
     return this.complement
   }
 
-  setComplement(complement: string) {
+  setComplement(complement?: string) {
     this.complement = complement
   }
 
@@ -43,7 +49,15 @@ export class Address {
     return this.postalCode
   }
 
-  setPostalCode(postalCode: string) {
+  setPostalCode(postalCode?: string) {
     this.postalCode = postalCode
+  }
+
+  getConfig() {
+    return this.config
+  }
+
+  setConfig(config: any) {
+    this.config = config
   }
 }

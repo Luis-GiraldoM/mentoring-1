@@ -71,7 +71,7 @@ export class UserProfile {
   }
 
   getAddresses() {
-    return this.address
+    return [...this.address]
   }
 
   addAddress(address: Address) {

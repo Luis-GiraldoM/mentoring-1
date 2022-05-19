@@ -1,3 +1,3 @@
-import { runBuilderPattern } from './patterns/builder'
+import { runPrototypePattern } from './patterns/prototype'
 
-runBuilderPattern()
+runPrototypePattern()
