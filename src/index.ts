@@ -1,3 +1,3 @@
-import { runPrototypePattern } from './patterns/prototype'
+import { runSingletonPattern } from './patterns/singleton'
 
-runPrototypePattern()
+runSingletonPattern()
