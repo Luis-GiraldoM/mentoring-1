@@ -1,3 +1,3 @@
-import { runSingletonPattern } from './patterns/singleton'
+import { runAdapterPattern } from './patterns/adapter'
 
-runSingletonPattern()
+runAdapterPattern()
