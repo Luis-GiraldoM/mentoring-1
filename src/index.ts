@@ -1,3 +1,3 @@
-import { runAdapterPattern } from './patterns/structural/adapter'
+import { runBridgePattern } from './patterns/structural/bridge'
 
-runAdapterPattern()
+runBridgePattern()
