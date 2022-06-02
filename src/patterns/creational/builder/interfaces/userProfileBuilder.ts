@@ -1,5 +1,5 @@
-import { Address } from '../../../interfaces/address'
-import { UserProfile } from '../../../interfaces/userProfile'
+import { Address } from '../../../../interfaces/address'
+import { UserProfile } from '../../../../interfaces/userProfile'
 
 export class UserProfileBuilder {
   private userProfile: UserProfile

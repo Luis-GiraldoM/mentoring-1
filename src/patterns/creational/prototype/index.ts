@@ -1,4 +1,4 @@
-import { Address } from '../../interfaces/address'
+import { Address } from '../../../interfaces/address'
 import { UserProfileBuilder } from '../builder/interfaces/userProfileBuilder'
 import { AddressPrototype } from './interfaces/addressPrototype'
 export const runPrototypePattern = () => {

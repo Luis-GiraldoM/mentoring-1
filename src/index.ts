@@ -1,3 +1,3 @@
-import { runAdapterPattern } from './patterns/adapter'
+import { runAdapterPattern } from './patterns/structural/adapter'
 
 runAdapterPattern()
