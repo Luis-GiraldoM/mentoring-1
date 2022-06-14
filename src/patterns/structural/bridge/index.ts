@@ -20,9 +20,11 @@ const enrollService: EnrollService = new EnrollServiceImplementation(
 
 const enrollController = new EnrollController(enrollService)
 
+// Single Responsability
 // Liskov Sustitution
 // Dependency Injection
 // Single Responsability
+// Open/Closed
 
 export const runBridgePattern = () => {
   console.log('Se intenta matricula', enrollController.enrollStudent({ studentId: 1, courseId: 1 }))
