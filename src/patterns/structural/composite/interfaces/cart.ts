@@ -1,4 +1,6 @@
 export interface CartItem {
+  name: string
+  quantity: number
   getPrice: () => number
 }
 
@@ -14,6 +16,6 @@ export class Cart {
   }
 
   getPrice(): number {
-    return 0
+    return this.items.reduce((subtotal, item) => subtotal + item.getPrice(), 0)
   }
 }

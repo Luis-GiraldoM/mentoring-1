@@ -1,3 +1,3 @@
-import { runBridgePattern } from './patterns/structural/bridge'
+import { runCompositePattern } from './patterns/structural/composite'
 
-runBridgePattern()
+runCompositePattern()
