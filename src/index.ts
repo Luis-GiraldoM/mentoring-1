@@ -1,3 +1,3 @@
-import { runCompositePattern } from './patterns/structural/composite'
+import { runDecoratorPattern } from './patterns/structural/decorator'
 
-runCompositePattern()
+runDecoratorPattern()
