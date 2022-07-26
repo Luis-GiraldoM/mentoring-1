@@ -1,3 +1,3 @@
-import { CodecFactory } from './codecFactory'
+import { Codec } from './codecFactory'
 
-export class MPEG4CompressionCodec extends CodecFactory {}
+export class MPEG4CompressionCodec implements Codec {}

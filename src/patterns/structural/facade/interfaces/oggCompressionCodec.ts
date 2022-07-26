@@ -1,3 +1,3 @@
-import { CodecFactory } from './codecFactory'
+import { Codec } from './codecFactory'
 
-export class OggCompressionCodec extends CodecFactory {}
+export class OggCompressionCodec implements Codec {}

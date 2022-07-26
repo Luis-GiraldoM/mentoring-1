@@ -6,12 +6,17 @@ export interface Codec {}
 
 export class CodecFactory {
   extract(file: VideoFile): Codec | null {
-    const [, extension] = file.name.split('.')
-    if (extension === 'mp4') {
+    const [, format] = file.name.split('.')
+
+    return this.getFromFormat(format)
+  }
+
+  getFromFormat(format: string): Codec | null {
+    if (format === 'mp4') {
       return new MPEG4CompressionCodec()
     }
 
-    if (extension === 'ogg') {
+    if (format === 'ogg') {
       return new OggCompressionCodec()
     }
 
