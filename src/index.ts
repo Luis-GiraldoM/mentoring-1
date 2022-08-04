@@ -1,3 +1,3 @@
-import { runFacadePattern } from './patterns/structural/facade'
+import { runFlyweightPattern } from './patterns/structural/Flyweight'
 
-runFacadePattern()
+runFlyweightPattern()
