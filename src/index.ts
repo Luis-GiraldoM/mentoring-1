@@ -1,3 +1,3 @@
-import { runFlyweightPattern } from './patterns/structural/Flyweight'
+import { runProxyPattern } from './patterns/structural/proxy'
 
-runFlyweightPattern()
+runProxyPattern()
