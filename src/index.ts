@@ -1,3 +1,3 @@
-import { runProxyPattern } from './patterns/structural/proxy'
+import { runChainOfResponsibilityPattern } from './patterns/behavioral/chainOfResponsability/index'
 
-runProxyPattern()
+runChainOfResponsibilityPattern()
