@@ -1,3 +1,3 @@
-import { runChainOfResponsibilityPattern } from './patterns/behavioral/chainOfResponsability/index'
+import { runIteratorPattern } from './patterns/behavioral/iterator'
 
-runChainOfResponsibilityPattern()
+runIteratorPattern()
