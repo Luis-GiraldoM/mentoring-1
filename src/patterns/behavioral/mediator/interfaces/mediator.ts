@@ -1,3 +1,3 @@
 export interface Mediator {
-  notify(sender: object, event: string): void
+  notify(sender: object, event: string): void;
 }

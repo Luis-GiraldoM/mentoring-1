@@ -1,3 +1,3 @@
-import { runIteratorPattern } from './patterns/behavioral/iterator'
+import { runMediatorPattern } from './patterns/behavioral/mediator';
 
-runIteratorPattern()
+runMediatorPattern();
