@@ -1,3 +1,3 @@
-import { runMediatorPattern } from './patterns/behavioral/mediator';
+import { runMementoPattern } from './patterns/behavioral/memento';
 
-runMediatorPattern();
+runMementoPattern();
