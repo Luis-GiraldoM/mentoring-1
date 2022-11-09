@@ -1,3 +1,3 @@
-import { runMementoPattern } from './patterns/behavioral/memento';
+import { runObserverPattern } from './patterns/behavioral/observer';
 
-runMementoPattern();
+runObserverPattern();
