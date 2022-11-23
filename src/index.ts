@@ -1,3 +1,3 @@
-import { runObserverPattern } from './patterns/behavioral/observer';
+import { runStatePattern } from './patterns/behavioral/state';
 
-runObserverPattern();
+runStatePattern();
