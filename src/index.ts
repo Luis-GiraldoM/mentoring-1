@@ -1,3 +1,3 @@
-import { runStrategyPattern } from './patterns/behavioral/strategy';
+import { runTemplatePattern } from './patterns/behavioral/template';
 
-runStrategyPattern();
+runTemplatePattern();
